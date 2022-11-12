@@ -18,5 +18,16 @@ h1 {
     text-align: center;
 }
 nav, footer {
+    background-color: steelblue;
+    color: white;
+    padding: 10px;
     text-align: center;
+}
+footer p {
+    font-size: 20px;
+    margin: 20px auto;
+}
+a:hover {
+    background-color: white;
+    color: steelblue;
 }
