@@ -109,7 +109,7 @@ h4 {
     margin: 200px 0;
 }
 .card-img {
-    border: 10px;
+    border: 10px solid #5A9367
 }
 main section img {
     box-sizing: border-box;
