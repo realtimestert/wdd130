@@ -234,3 +234,6 @@ main section img {
     grid-column: 2;
     text-align: left;
 }
+.h2 {
+    justify-content: center;
+}
