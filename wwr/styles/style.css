@@ -222,16 +222,11 @@ main section img {
     footer {
         margin-top: 25px;
     }
+
 .faqpara {
     margin: 50px auto;
     font-size: 20px;
-    padding-right: 50px;
     text-align: left;
     display: grid;
     grid-template-columns: 150px auto;
-}
-.h2 {
-    justify-content: center;
-    text-align: center;
-    width: 100%;
-}
+}}
