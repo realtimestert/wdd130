@@ -223,3 +223,14 @@ main section img {
         margin-top: 25px;
     }
 }
+.faq-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.faqpara {
+    margin: 50px auto;
+    font-size: 20px;
+    padding-right: 50px;
+    grid-column: 2;
+    text-align: left;
+}
