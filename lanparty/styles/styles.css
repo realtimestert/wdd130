@@ -13,8 +13,8 @@ nav {
 }
 .content {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20%;
     width: auto;
 }
 img {
@@ -34,6 +34,7 @@ img {
 }
 .headphones {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-column: 1;
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20%;
+    grid-column: 1/2;
 }
