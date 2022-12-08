@@ -32,3 +32,8 @@ img {
 .paragraph {
     padding: 35px;
 }
+.headphones {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column: 1;
+}
