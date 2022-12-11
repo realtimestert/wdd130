@@ -32,6 +32,18 @@ img {
     color: #ED7D3A;
     text-align: center;
 }
+#trouble-msg {
+  font-family: rubik glitch;
+  font-size: 60px;
+  color: #ED7D3A;
+  text-align: center;
+}
+#what-msg {
+  font-family: rubik glitch;
+  font-size: 60px;
+  color: #ED7D3A;
+  text-align: center;
+}
 .paragraph {
     padding: 35px;
 }
