@@ -11,11 +11,29 @@ nav {
     margin-top: auto;
     font-family: Rubik Glitch;
 }
+nav a {
+  text-align: center;
+  color:#129490;
+  text-decoration: none;
+  padding: 35px;
+}
 .content {
     display: grid;
     grid-template-columns: 20% 20% 20% 20%;
     grid-template-rows: 20% 20% 20% 20%;
     width: auto;
+}
+#content {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+.para1 {
+  display: grid;
+  grid-column: 1;
+  grid-row: 1;
+}
+.catcables {
+  grid-column: 3;
 }
 img {
     display: block;
@@ -154,4 +172,8 @@ th, td {
 
 tr:nth-child(even) {
   background-color: #ED7D3A;
+}
+
+#lanlogo {
+  margin: 200px 0
 }
