@@ -45,19 +45,19 @@
     <!-- Full-width images with number and caption text -->
     <div class="mySlides fade">
       <div class="numbertext">1 / 3</div>
-      <img src="images/catcables.jpg" style="width:100%">
+      <img src="images/catcables.jpg" style="width:100%" alt="Plugging it in">
       <div class="text">Cables to Hook things up</div>
     </div>
   
     <div class="mySlides fade">
       <div class="numbertext">2 / 3</div>
-      <img src="images/headphones.jpg" style="width:100%">
+      <img src="images/headphones.jpg" style="width:100%" alt="Listen to your own game!">
       <div class="text">Get your own headgear!</div>
     </div>
   
     <div class="mySlides fade">
       <div class="numbertext">3 / 3</div>
-      <img src="images/seating.jpg" style="width:100%">
+      <img src="images/seating.jpg" style="width:100%" alt="Seating is very important">
       <div class="text">Get comfortable!</div>
     </div>
   
@@ -82,36 +82,37 @@
             <img class="logo" src="images/lanlogo.png" alt="LAN Logo"> 
         </a>
     </footer>
-</div>  
+</div> 
 </body>
-</html>
+
 <script>
-    let slideIndex = 1;
-showSlides(slideIndex);
+      let slideIndex = 1;
+  showSlides(slideIndex);
 
-// Next/previous controls
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-// Thumbnail image controls
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  let i;
-  let slides = document.getElementsByClassName("mySlides");
-  let dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
+  // Next/previous controls
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
   }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
+
+  // Thumbnail image controls
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
   }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-}
+
+  function showSlides(n) {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    let dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+  }
 </script>
+</html>
