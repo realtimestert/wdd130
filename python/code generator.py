@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 import random
 
+from datetime import datetime
+
 def randpasswd(length, chars=None):
     if chars == None:
         chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!@#$%¨&*()_+/*\\|<>;:"
