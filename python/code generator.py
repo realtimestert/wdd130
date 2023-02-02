@@ -5,7 +5,7 @@ from datetime import datetime
 
 def randpasswd(length, chars=None):
     if chars == None:
-        chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!@#$%¨&*()_+/*\\|<>;:"
+        chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!@#$%¨&*()_+/*\\|;:"
 
     password = ""
     for i in range(length):
