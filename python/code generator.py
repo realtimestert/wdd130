@@ -24,6 +24,6 @@ def randnumbah(length, nums=None):
     return pw
 
 #omit this if you just want the function
-print(randpasswd(10))
+print(randpasswd(20))
 
 print(randnumbah(10))
