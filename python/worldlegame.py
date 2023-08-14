@@ -1,4 +1,4 @@
-secret = "snipe"
+secret = "bacon"
 
 print()
 print("Welcome to the word solving game!")
